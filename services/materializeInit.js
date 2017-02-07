@@ -17,7 +17,16 @@ $(document).ready(function() {
     $('select').material_select();
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
-    $('.tooltipped').tooltip({delay: 50});
+    $('.tooltipped').tooltip({
+      delay: 50,
+      tooltip: ,
+      position: bottom,
+      html: false,
+    });
     $('.collapsible').collapsible();
+    // Initialize collapse button
+    $(".button-collapse").sideNav();
+    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+    //$('.collapsible').collapsible();
     // $('.materialboxed').materialbox();
 });
