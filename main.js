@@ -12,19 +12,19 @@ app.config(function($routeProvider, $locationProvider){
 
 $routeProvider
   .when(`/`, {
-    controller: "IndexCtrl",
+    controller: `IndexCtrl`,
     templateUrl: `index.hmtl`
   })
   .when(`/brackets`, {
-    controller: "BracketsCtrl",
-    templateUrl: `brackets.html`
+    controller: `BracketsCtrl`,
+    templateUrl: `partials/brackets.html`
   })
   .when(`/home`, {
-    controller: "HomeCtrl",
-    templateUrl: `homeScreen.html`
+    controller: `HomeCtrl`,
+    templateUrl: `partials/homeScreen.html`
   })
   .when(`/leaderboard`, {
-    controller: "PoolCtrl",
-    templateUrl: `leaderboard.html`
+    controller: `PoolCtrl`,
+    templateUrl: `partials/leaderboard.html`
   })
 })
