@@ -29,4 +29,5 @@ $(document).ready(function() {
     // Initialize collapsible (uncomment the line below if you use the dropdown variation)
     //$('.collapsible').collapsible();
     // $('.materialboxed').materialbox();
+    $('.chips-initial').material_chip('data');
 });
