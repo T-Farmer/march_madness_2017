@@ -1,3 +1,5 @@
-app.controller(`bracketsCtrl`, function($scope){
-  console.log("bracket controller loaded")
+console.log('brackets controller')
+
+app.controller('BracketsCtrl', function() {
+
 })
