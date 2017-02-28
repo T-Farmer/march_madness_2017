@@ -6,28 +6,12 @@
     <link rel="stylesheet" type="text/css" href="/bower_components/jquery-bracket/dist/jquery.bracket.min.css">
     <link rel="stylesheet" type="text/css" href="/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>March Madness 2017</title>
+    <title>Bracket Madness</title>
   </head>
 
-  <h2 class="center-align"><a href="#/leaderboard">March Madness 2017</h2>
+  <h2 class="center-align"><a href="#/home">Bracket Madness</a></h2>
   <body ng-app="tourneyBracketApp">
-
-<!-- Navigation -->
-  <!-- <div class="navbar-fixed" ng-controller="NavCtrl"></div>
-    <nav class="navigation">
-      <div class="nav-wrapper"></div>
-        <a href="#!" class="brand-logo">Madness</a> -->
-<!--     </nav> -->
-
-
-
-
-
-
-
-
-
-
+    <div ng-view></div>
 
 
 <!-- Dependencies -->
@@ -41,7 +25,7 @@
     <script src="/bower_components/materialize/dist/js/materialize.min.js"></script>
     <script src="/services/materializeInit.js"></script>
 <!-- App scripts -->
-    <script src="/app/main.js"></script>
+    <script src="/app/app.js"></script>
     <script src="/app/config.js"></script>
     <script src="/controllers/homeCtrl.js"></script>
     <script src="/controllers/bracketsCtrl.js"></script>

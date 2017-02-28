@@ -8,12 +8,17 @@ app.config(function($routeProvider, $locationProvider){
 
   $routeProvider
     .when('/', {
-      controller: 'HomeCtrl',
-      templateUrl: '/partials/home.hmtl',
+      // controller: 'HomeCtrl',
+      controller: 'BracketsCtrl',
+      templateUrl: '/partials/brackets.html',
     })
     .when('/brackets', {
       controller: 'BracketsCtrl',
       templateUrl: '/partials/brackets.html',
+    })
+    .when('/home', {
+      controller: 'HomeCtrl',
+      templateUrl: '/partials/home.html',
     })
     .when('/leaderboard', {
       controller: 'LeaderboardCtrl',

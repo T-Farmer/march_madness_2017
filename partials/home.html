@@ -1,1 +1,15 @@
-<section></section>
+<div>
+<h3>Choose Your Teams</h3>
+</div>
+
+<div class="container">
+<form ng-submit="newUserPost()" class="simple-form">
+  <label>My name is... <input ng-model="name" type="text"></label>
+  <label>My email is...<input ng-model="email" type="email"></label>
+  <label>My Sweet 16 winners are... <input ng-model="sixteen" type="text"></label>
+  <label>My Final 4 winners are... <input ng-model="four" type="text"></label>
+  <label>My 2017 National Champion is... <input ng-model="champion" type="text"></label>
+  <!-- <input type="submit"> -->
+  <a href="#/leaderboard" class="btn btn-primary">Set Teams</a>
+</form>
+</div>
